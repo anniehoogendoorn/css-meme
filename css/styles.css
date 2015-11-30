@@ -1,0 +1,25 @@
+p {
+    font-family: impact;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 3px 2px #000;
+    text-transform: uppercase;
+}
+
+.image {
+    width: 640px;
+    height: 427px;
+    background-image: url('../img/dog.jpg');
+    background-repeat: no-repeat;
+    background-size: 640px 427px;
+}
+
+.bark-top, .english-top {
+    position: relative;
+    display: none;
+}
+
+.bark-bottom, .english-bottom {
+    position: relative;
+}
