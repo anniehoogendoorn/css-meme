@@ -17,9 +17,18 @@ p {
 
 .bark-top, .english-top {
     position: relative;
-    display: none;
+    /*display: none;*/
 }
 
 .bark-bottom, .english-bottom {
     position: relative;
+    top: 215px;
+}
+
+.english-top, .english-bottom {
+    display: none;
+}
+
+.image:hover + .english-top {
+    display: block; 
 }
